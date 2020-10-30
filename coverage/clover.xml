@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1604037199417" clover="3.2.0">
-  <project timestamp="1604037199418" name="All files">
+<coverage generated="1604037768950" clover="3.2.0">
+  <project timestamp="1604037768950" name="All files">
     <metrics statements="259" coveredstatements="142" conditionals="42" coveredconditionals="9" methods="47" coveredmethods="10" elements="348" coveredelements="161" complexity="0" loc="259" ncloc="259" packages="7" files="18" classes="18"/>
     <package name="fidele-brand-backend">
       <metrics statements="15" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
