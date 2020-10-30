@@ -1,14 +1,7 @@
 import request from 'supertest';
-// import config from '/config';
-import app from '../index';
-
-// import generateToken from '../helper/Token';
+import app from '../app';
 import mongoose from 'mongoose';
-// import { iteratee } from 'lodash';
 import Blog from '../modals/blogs.modal'
-// import { request } from 'express';
-
-// const dbUrl='mongodb://localhost/fidele_testing_db';
 
 describe('general Testing',()=>{
     beforeAll(()=>{
@@ -45,34 +38,7 @@ describe('general Testing',()=>{
 
     expect(blog).not.toBe(null);
     });
-
-});
-
-
-/////Read blogue////
-
-describe('Read bloge',()=>{
-    let blog;
-    beforeAll(()=>{
-        mongoose.connect( 'mongodb://localhost/fidele_testing_db',{
-            useNewUrlParser: true,
-            useUnifiedTopology: true
-        });
-    });
-    // let token;
-
-    beforeEach(async()=>{
-        const user = {
-            _id: mongoose.Types.ObjectId().toHexString(),
-            name : "fidele",
-            email : "fidele@gmail.com",
-            password : "password"
-        };
-        // token = generateToken(user);
-    })
-
-    afterEach(async()=>await Blog.remove());
-
+    
     it('read all blogs', async (done) =>{
         const user = {
             _id: mongoose.Types.ObjectId().toHexString(),
@@ -83,6 +49,7 @@ describe('Read bloge',()=>{
         blog = {
             author : user.name,
             title : 'software engineering',
+            date : '2020-10-28',
             content : 'computer science',
         }
     const newBlog = await Blog(blog)
@@ -93,5 +60,80 @@ describe('Read bloge',()=>{
 
         expect(res.status).toBe(200);
         done();
+    });
+    
+    it('No blogs blogs', async (done) =>{
+        const user = {
+            _id: mongoose.Types.ObjectId().toHexString(),
+            name : "fidele",
+            email : "fidele@gmail.com",
+            password : "password"
+        };
+        const res = await request(app)
+        .get('/api/blogs/allBlogs')
+        // .set('auth-token',token);
+
+        expect(res.status).toBe(404);
+        done();
     })
+    
+    it('update blog', async (done) =>{
+        const user = {
+            _id: mongoose.Types.ObjectId().toHexString(),
+            name : "fidele",
+            email : "fidele@gmail.com",
+            password : "password"
+        };
+        const blog = {
+            author : user.name,
+            title : 'software engineering',
+            date : '2020-10-28',
+            content : 'computer science',
+        }
+    const newBlog = await Blog(blog)
+    const savedBlog = await newBlog.save();
+    const id = savedBlog._id;
+        const res = await request(app)
+        .put(`/api/blogs/updateBlog/${id}`)
+        // .set('auth-token',token);
+
+        expect(res.status).toBe(200);
+        done();
+    });
+    
+    it('not update blog', async (done) =>{
+        const blog = {
+            author : 'Fidele',
+            title : 'software engineering',
+            date : '2020-10-28',
+            content : 'computer science',
+        }
+    const newBlog = await Blog(blog)
+    const savedBlog = await newBlog.save();
+    const id = savedBlog._id;
+        const res = await request(app)
+        .put(`/api/blogs/updateBlog/${id}`)
+        // .set('auth-token',token);
+
+        expect(res.status).toBe(200);
+        done();
+    });
+    
+    it('delete blog', async (done) =>{
+        const blog = {
+            author : 'Fidele',
+            title : 'software engineering',
+            date : '2020-10-28',
+            content : 'computer science',
+        }
+    const newBlog = await Blog(blog)
+    const savedBlog = await newBlog.save();
+    const id = savedBlog._id;
+        const res = await request(app)
+        .put(`/api/blogs/delete/${id}`)
+        // .set('auth-token',token);
+
+        expect(res.status).toBe(404);
+        done();
+    });
 });
