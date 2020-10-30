@@ -1,4 +1,3 @@
-require('./modals/db');
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
@@ -19,10 +18,4 @@ app.use('/api/users',usersRoutes);
 app.use('/api/blogs',blogsRoutes);
 app.use('/api/inquiries',inquiryRoutes);
 
-const port = process.env.PORT;
-app.listen(port,()=>{
-    console.log("App is running on port "+port);
-})
-
 module.exports = app;
-
