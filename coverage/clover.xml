@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1604037768950" clover="3.2.0">
-  <project timestamp="1604037768950" name="All files">
+<coverage generated="1605177915241" clover="3.2.0">
+  <project timestamp="1605177915241" name="All files">
     <metrics statements="259" coveredstatements="142" conditionals="42" coveredconditionals="9" methods="47" coveredmethods="10" elements="348" coveredelements="161" complexity="0" loc="259" ncloc="259" packages="7" files="18" classes="18"/>
     <package name="fidele-brand-backend">
       <metrics statements="15" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="app.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\app.js">
+      <file name="app.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\app.js">
         <metrics statements="15" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -25,7 +25,7 @@
     </package>
     <package name="fidele-brand-backend.controllers">
       <metrics statements="140" coveredstatements="55" conditionals="26" coveredconditionals="7" methods="38" coveredmethods="5"/>
-      <file name="blogs.controller.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\controllers\blogs.controller.js">
+      <file name="blogs.controller.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\controllers\blogs.controller.js">
         <metrics statements="50" coveredstatements="16" conditionals="12" coveredconditionals="2" methods="14" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -78,7 +78,7 @@
         <line num="150" count="0" type="stmt"/>
         <line num="164" count="0" type="stmt"/>
       </file>
-      <file name="inquiries.controller.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\controllers\inquiries.controller.js">
+      <file name="inquiries.controller.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\controllers\inquiries.controller.js">
         <metrics statements="39" coveredstatements="8" conditionals="4" coveredconditionals="0" methods="15" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -120,7 +120,7 @@
         <line num="122" count="0" type="stmt"/>
         <line num="137" count="0" type="stmt"/>
       </file>
-      <file name="user.controller.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\controllers\user.controller.js">
+      <file name="user.controller.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\controllers\user.controller.js">
         <metrics statements="51" coveredstatements="31" conditionals="10" coveredconditionals="5" methods="9" coveredmethods="4"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -177,13 +177,13 @@
     </package>
     <package name="fidele-brand-backend.helper.validators">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="inquiry.validator.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\helper\validators\inquiry.validator.js">
+      <file name="inquiry.validator.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\helper\validators\inquiry.validator.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="fidele-brand-backend.middlewares">
       <metrics statements="26" coveredstatements="10" conditionals="10" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <file name="admin.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\middlewares\admin.js">
+      <file name="admin.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\middlewares\admin.js">
         <metrics statements="14" coveredstatements="5" conditionals="6" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -200,7 +200,7 @@
         <line num="25" count="0" type="stmt"/>
         <line num="28" count="3" type="stmt"/>
       </file>
-      <file name="auth.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\middlewares\auth.js">
+      <file name="auth.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\middlewares\auth.js">
         <metrics statements="12" coveredstatements="5" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -218,21 +218,21 @@
     </package>
     <package name="fidele-brand-backend.modals">
       <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="blogs.modal.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\modals\blogs.modal.js">
+      <file name="blogs.modal.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\modals\blogs.modal.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
         <line num="23" count="3" type="stmt"/>
         <line num="24" count="3" type="stmt"/>
       </file>
-      <file name="inquiry.modal.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\modals\inquiry.modal.js">
+      <file name="inquiry.modal.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\modals\inquiry.modal.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
         <line num="26" count="3" type="stmt"/>
         <line num="27" count="3" type="stmt"/>
       </file>
-      <file name="users.modal.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\modals\users.modal.js">
+      <file name="users.modal.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\modals\users.modal.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -243,7 +243,7 @@
     </package>
     <package name="fidele-brand-backend.routers">
       <metrics statements="31" coveredstatements="31" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="blogs.routes.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\routers\blogs.routes.js">
+      <file name="blogs.routes.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\routers\blogs.routes.js">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -256,7 +256,7 @@
         <line num="14" count="3" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
       </file>
-      <file name="inquiries.routes.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\routers\inquiries.routes.js">
+      <file name="inquiries.routes.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\routers\inquiries.routes.js">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -269,7 +269,7 @@
         <line num="11" count="3" type="stmt"/>
         <line num="14" count="3" type="stmt"/>
       </file>
-      <file name="user.router.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\routers\user.router.js">
+      <file name="user.router.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\routers\user.router.js">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="2" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
@@ -286,7 +286,7 @@
     </package>
     <package name="fidele-brand-backend.utils">
       <metrics statements="34" coveredstatements="19" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="3"/>
-      <file name="auth.currentUser.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\utils\auth.currentUser.js">
+      <file name="auth.currentUser.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\utils\auth.currentUser.js">
         <metrics statements="12" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -301,21 +301,21 @@
         <line num="20" count="0" type="stmt"/>
         <line num="24" count="3" type="stmt"/>
       </file>
-      <file name="date.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\utils\date.js">
+      <file name="date.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\utils\date.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="4" type="stmt"/>
         <line num="4" count="4" type="stmt"/>
         <line num="5" count="4" type="stmt"/>
         <line num="8" count="3" type="stmt"/>
       </file>
-      <file name="hassPassword.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\utils\hassPassword.js">
+      <file name="hassPassword.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\utils\hassPassword.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="3" count="4" type="stmt"/>
         <line num="4" count="4" type="stmt"/>
         <line num="6" count="3" type="stmt"/>
       </file>
-      <file name="jwtSigner.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\utils\jwtSigner.js">
+      <file name="jwtSigner.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\utils\jwtSigner.js">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -325,7 +325,7 @@
         <line num="8" count="1" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
       </file>
-      <file name="uniqueId.js" path="C:\Users\Andela\Desktop\FIDELE\fidele-brand-backend\utils\uniqueId.js">
+      <file name="uniqueId.js" path="C:\Users\Andela\Desktop\my brand ANDELA\FIDELE\fidele-brand-backend\utils\uniqueId.js">
         <metrics statements="7" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
